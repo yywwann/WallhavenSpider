@@ -1,6 +1,6 @@
 # WallhavenSpider
 
-[爬取地址wallhaven.cc](wallhaven.cc)
+[爬取地址wallhaven.cc](https://wallhaven.cc/toplist)
 
 ## 环境
 Scrapy
