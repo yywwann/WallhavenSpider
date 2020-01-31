@@ -1,5 +1,7 @@
 # WallhavenSpider
 
+[爬取地址wallhaven.cc](wallhaven.cc)
+
 ## 环境
 Scrapy
 python
