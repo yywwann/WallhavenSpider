@@ -8,6 +8,7 @@ python
 
 ## 使用方法
 
+克隆仓库到本地
 ```shell
 git clone https://github.com/yywwann/WallhavenSpider.git
 ```
