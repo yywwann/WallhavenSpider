@@ -7,7 +7,7 @@ class JobPositionSpider(scrapy.Spider):
     name = 'job_position'
     allowed_domains = ['wallhaven.cc']
     start_urls = []
-    for i in range(100):
+    for i in range(221):
         url = 'https://wallhaven.cc/toplist?page=' + str(i + 1)
         start_urls.append(url)
 

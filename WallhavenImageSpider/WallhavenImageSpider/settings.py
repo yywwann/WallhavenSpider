@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+DOWNLOAD_DELAY = 1
 
 BOT_NAME = 'WallhavenImageSpider'
 
@@ -12,8 +13,8 @@ ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline': 1,
     'scrapy.pipelines.files.FilesPipeline': 2,
 }
-FILES_STORE = '/Users/cccccccccchy/Downloads'  # 文件存储路径
-IMAGES_STORE = '/Users/cccccccccchy/Downloads' # 图片存储路径
+# FILES_STORE = '/Users/cccccccccchy/Downloads'  # 文件存储路径
+# IMAGES_STORE = '/Users/cccccccccchy/Downloads' # 图片存储路径
 
 # 避免下载最近90天已经下载过的文件内容
 FILES_EXPIRES = 90
@@ -32,7 +33,7 @@ DEFAULT_REQUEST_HEADERS = {
     'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
 }
 
-IMAGES_STORE='/Users/cccccccccchy/Downloads/wallhaven'
+IMAGES_STORE='../wallhaven'
 
 ITEM_PIPELINES = {
    'WallhavenImageSpider.pipelines.WallhavenimagespiderPipeline': 300,
