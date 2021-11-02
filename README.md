@@ -4,9 +4,11 @@
 
 ## 环境
 
-Scrapy  
- 
-python
+- Scrapy  
+- pandas
+- requests
+- pillow
+- python3
 
 ## 使用方法
 

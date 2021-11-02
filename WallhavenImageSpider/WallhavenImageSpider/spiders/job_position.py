@@ -9,7 +9,7 @@ class JobPositionSpider(scrapy.Spider):
     allowed_domains = ['wallhaven.cc']
     start_urls = ['http://wallhaven.cc/']
 
-    def start_requests(self):#重写这个方法
+    def start_requests(self):  # 重写这个方法
         url = pd.read_csv("../wallhaven.csv", usecols=["url"])  # 读取csv文件,改为你的路径
         # url = url.head(5)  # 只取前5条数据
         urls = [x for x in url["url"]]

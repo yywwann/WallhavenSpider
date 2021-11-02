@@ -17,4 +17,3 @@ class JobPositionSpider(scrapy.Spider):
         for jobs_primary in response.xpath('//li/figure'):
             item['url'] = jobs_primary.xpath('./a/@href').extract()
             yield item
-
