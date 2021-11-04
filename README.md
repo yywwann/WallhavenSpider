@@ -16,11 +16,8 @@
 
 ```shell
 $ git clone https://github.com/yywwann/WallhavenSpider.git
-$ cd WallhavenSpider
-$ scrapy crawl job_position
-$ cd ..
-$ cd WallhavenImageSpider
-$ scrapy crawl job_position
+$ cd WallhavenSpider; scrapy crawl job_position
+$ cd ../WallhavenImageSpider; scrapy crawl job_position
 ```
 
 500张壁纸大概需要25分钟
